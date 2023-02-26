@@ -39,7 +39,7 @@ export const Product = React.forwardRef<HTMLDivElement>(
         </CardActionArea>
         <CardActions sx={{ height: 20 }}>
           <Button size="small" color="primary">
-            {`product Id:${product.id}`}
+            {`product Id:${product.id} new`}
           </Button>
         </CardActions>
       </Card>
